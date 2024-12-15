@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS Seminar - Sem 4</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="univlgblue1.png" type="image/x-icon">
+</head>
+<body>
+    <!-- Landing Page -->
+    <div id="landing-page" class="page active">
+        <div class="wave-background"></div>
+        <header class="profile-header">
+            <div class="profile-container">
+                <div class="profile-image">
+                    <img src="headshot-1734182654288.png" alt="Profile Picture">
+                </div>
+                <div class="profile-info">
+                    <h1 class="name">K Yugavardhan</h1>
+                    <div class="details-grid">
+                        <div class="detail-item">
+                            <span class="label">Reg. Number:</span>
+                            <span class="value">122311510201</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Department:</span>
+                            <span class="value">B Tech CSE</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Section:</span>
+                            <span class="value">B</span>
+                        </div>
+                        <div class="detail-item">
+                            <span class="label">Batch:</span>
+                            <span class="value">2023-2027</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <main class="presentation-intro">
+            <h2 class="presentation-title"><u><h6>Title of the Presentation</u></h6><br>Data Management in Google's Search Engine</h2>
+            <div class="button-container">
+                <button id="start-presentation" class="cta-button">Start Presentation</button>
+                <button id="download-report" class="cta-button download-button">Download Report</button>
+            </div>
+        </main>
+    </div>
+
+    <!-- Presentation Page -->
+    <div id="presentation-page" class="page">
+        <div class="wave-background"></div>
+        <div class="presentation-container">
+            <div class="presentation-frame">
+                <iframe loading="lazy" 
+                    src="https://www.canva.com/design/DAGYhuFXEXQ/YPR260B2tbHEOlbqV8c3wQ/view?embed" 
+                    allowfullscreen="allowfullscreen" 
+                    allow="fullscreen">
+                </iframe>
+            </div>
+            <div class="navigation-buttons">
+                <button id="back-to-home" class="nav-button">Back to Home</button>
+                <button id="finish-presentation" class="nav-button">Finish Presentation</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Page -->
+    <div id="thank-you-page" class="page">
+        <div class="wave-background"></div>
+        <div class="thank-you-container">
+            <h1 class="thank-you-title">Thank You!</h1>
+            <p class="thank-you-message">Thank you for attending the presentation on Data Management in Google's Search Engine</p>
+            <button id="back-from-thanks" class="nav-button">Back to Home</button>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.2/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
